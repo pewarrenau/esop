@@ -531,7 +531,7 @@ For hard-linking strategy, it is logically same as for in-place, SSTables
 are again dispersed among all data directories with any signifant order.
 
 For importing strategy, Esop does not control where SSTables will be put
-at all as this is delegated to imporing mechanism of Cassandra itself so
+at all as this is delegated to importing mechanism of Cassandra itself so
 the support of multiple data directories is there out of the box.
 
 #### Backup
